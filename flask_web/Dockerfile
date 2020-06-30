@@ -6,5 +6,5 @@ WORKDIR /app
 EXPOSE 3000
 RUN pip install -r requirements.txt
 COPY . /app
-ENTRYPOINT [ "python" ]
+ENTRYPOINT [ "pytho" ]
 
